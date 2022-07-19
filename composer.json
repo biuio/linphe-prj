@@ -1,0 +1,32 @@
+{
+    "name": "biuio/linphe-pjr",
+    "description": "linphe project",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "yjtec/linphe": "0.0.4.*",
+        "yjtec/lincontroller": "*",
+        "yjtec/linmodel": "*"
+    },
+    "authors": [
+        {
+            "name": "Ax",
+            "email": "18716463@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "cnf\\": "cnf/",
+            "app\\": "app/",
+            "boot\\": "boot/",
+            "lib\\": "lib/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
